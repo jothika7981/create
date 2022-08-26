@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+char x[20];
+int i,count=1;
+printf("string\n");
+gets(x);
+for(i=0;x[i]!=;'\O';i++)
+{
+if(x[i]=='')
+{
+count++;
+}
+}
+printf("%d",count);
+return 0;
+}

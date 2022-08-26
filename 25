@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+char x[20];
+int i;
+printf("string\n");
+gets(x);
+for(i=0;x[i]!='\O';i++)
+if(i%2==1)
+{
+x[i]=x[i]-32;
+}
+}
+puts9x0;
+return 0;
+}
